@@ -1,0 +1,18 @@
+" Custom
+set rnu! " relative numbering
+set ci!  " C indent style
+set et!  " tab-expand
+set columns=100
+set lines=40
+color slate 
+compiler msvc
+
+" GUI
+set guioptions-=T " remove toolbar
+set guioptions-=r " remove right-hand scroll bar
+set guioptions-=L " remove left-hand scroll bar (?)
+set langmenu=en_US
+let $LANG='en_US'
+source $VIMRUNTIME/delmenu.vim
+source $VIMRUNTIME/menu.vim
+set guifont=Consolas:h12:cDEFAUL
